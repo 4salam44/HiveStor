@@ -1,0 +1,114 @@
+.home-landing {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ef 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Tajawal', Arial, sans-serif;
+}
+
+.home-header {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.logo-circle {
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin: 0 auto 20px auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.store-title {
+  font-size: 2.5rem;
+  color: #1a237e;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.store-desc {
+  color: #374151;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.stores-tabs-home {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.store-tab-btn {
+  padding: 10px 24px;
+  border: none;
+  background: #e3e7fa;
+  color: #1a237e;
+  border-radius: 22px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  font-weight: 500;
+}
+.store-tab-btn:hover {
+  background: #1a237e;
+  color: #fff;
+}
+
+.enter-btn {
+  background: linear-gradient(90deg, #1a237e 0%, #3949ab 100%);
+  color: #fff;
+  border: none;
+  padding: 14px 38px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(26,35,126,0.08);
+}
+.enter-btn:hover {
+  background: linear-gradient(90deg, #3949ab 0%, #1a237e 100%);
+}
+
+.features-section {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.feature-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(26,35,126,0.07);
+  padding: 30px 24px 22px 24px;
+  min-width: 220px;
+  max-width: 260px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.feature-icon {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  display: block;
+}
+
+@media (max-width: 700px) {
+  .features-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .stores-tabs-home {
+    flex-direction: column;
+    gap: 10px;
+  }
+} 
